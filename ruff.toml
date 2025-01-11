@@ -1,0 +1,17 @@
+line-length = 100
+lint.extend-select = [
+  "Q",
+  "N", 
+  "UP",
+  "B",
+]
+lint.ignore = ["D100", "D104", "D203", "E225", "E226", "E731"]
+lint.select = ["Q", "N", "UP", "B", "ISC", "F", "E", "W"]
+
+[lint.flake8-quotes]
+avoid-escape = true
+docstring-quotes = "double"
+inline-quotes = "single"
+
+[lint.pydocstyle]
+convention = "numpy"
